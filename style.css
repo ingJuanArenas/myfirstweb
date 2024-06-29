@@ -1,0 +1,50 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+
+padding-top: 10%;
+}
+
+h1,h2,h3,ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1{
+    font-size: 40px;
+    background-color: blanchedalmond;
+   
+}
+
+h2{
+    background-color: blue;
+}
+
+h3{
+    background-color: aqua;
+}
+
+ul{
+    background-color: blueviolet;
+    text-decoration: none;
+    text-align: left;
+}
+
+li{
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+    text-decoration: none;
+    text-align: left;
+}
+
+a{
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+    text-decoration: none;
+}
