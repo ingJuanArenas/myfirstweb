@@ -4,10 +4,46 @@ body{
     background-color: black;
     text-align: center;
     color: aliceblue;
+    margin:0;
+    padding: 0;
 
-padding-top: 10%;
+
 }
+header{
+    height: 10%;
+    width: 100%;
+    background: yellow;
+    padding: 15px;
+}
+.theme_bar{
+    height: 50%;
+    width: 50px ;
+    margin-top: 0;
+    margin-left: 90%;
+    background-color: blueviolet;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    border-radius: 75px;
+}
+.theme{
+    height: 100%;
+    width: 40%;
 
+}
+button{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: none;
+
+}
+section{
+    margin-top: 5%;
+    padding: 20px;
+}
 h1,h2,h3,ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 20%;
@@ -16,35 +52,27 @@ h1,h2,h3,ul{
 
 h1{
     font-size: 40px;
-    background-color: blanchedalmond;
    
 }
 
-h2{
-    background-color: blue;
+
+
+.menu_bar{
+    background-color: white;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    border-radius: 75px;
 }
 
-h3{
-    background-color: aqua;
-}
-
-ul{
-    background-color: blueviolet;
-    text-decoration: none;
-    text-align: left;
-}
-
-li{
+.op{
     height: 100%;
-    width: 100%;
-    background-color: cadetblue;
-    text-decoration: none;
-    text-align: left;
+    width: 20%;
+    margin-left: 10%;
 }
 
 a{
     height: 100%;
-    width: 20%;
-    background-color: yellow;
+    width: 100%;
     text-decoration: none;
 }
